@@ -1,13 +1,19 @@
 import React from 'react';
 import './CartContainer.css';
-import data from '../../data';
 import CartItem from '../CartItem/CartItem';
 
-const CartContainer = () => {
+const CartContainer = ({ products }) => {
   return (
     <div className='cart-container'>
-      {data.map((data) => (
-        <CartItem data={data} />
+      {products.map((product) => (
+        <CartItem
+          key={product.id}
+          name={product.name}
+          brand={product.brand}
+          price={product.price}
+          image={product.image}
+          quantity={product.quantity}
+        />
       ))}
     </div>
   );

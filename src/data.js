@@ -4,21 +4,24 @@ const data = [
     name: 'Blue 65 Litres Rucksack',
     brand: 'Impulse',
     price: 1214,
-    image: 'backpack-1',
+    image: '/images/backpack-1.jpg',
+    quantity: 1,
   },
   {
     id: 2,
     name: 'Tan Solid Laptop Backpack',
     brand: 'Gear',
     price: 1099,
-    image: 'backpack-2',
+    image: '/images/backpack-2.jpg',
+    quantity: 1,
   },
   {
     id: 3,
     name: 'Black Regloss Trolley Suitcase',
     brand: 'Safari',
     price: 2934,
-    image: 'backpack-3',
+    image: '/images/backpack-3.jpg',
+    quantity: 1,
   },
 ];
 
