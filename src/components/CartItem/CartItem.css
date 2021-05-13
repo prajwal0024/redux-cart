@@ -1,0 +1,90 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 3rem;
+  width: max-content;
+
+  max-width: 89rem;
+  width: 100%;
+}
+
+.item-body {
+  background-color: #e9edee;
+  padding: 1.5rem 3rem 1.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #d4d7d7;
+  flex: 1;
+}
+
+.item-image-container {
+  height: 13.2rem;
+  width: 13.2rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.item-image {
+  height: 100%;
+  background-size: cover;
+}
+
+.item-content-container {
+  max-width: 60rem;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 5fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 4rem;
+  grid-row-gap: 2rem;
+}
+
+.item-name {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #605a57;
+}
+
+.item-brand {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #8d8887;
+  margin-top: 0.5rem;
+}
+
+.item-counter-container {
+  display: flex;
+  align-items: center;
+  justify-self: right;
+  align-self: flex-start;
+  padding-top: 1rem;
+}
+
+.item-counter-count {
+  font-size: 2.2rem;
+  color: #605a57;
+  margin: 0 2rem;
+}
+
+.item-counter-icon-decrement {
+  transform: rotate(180deg);
+}
+
+.item-counter-icon {
+  cursor: pointer;
+}
+
+.item-price-container,
+.item-total-price-container {
+  font-size: 2.2rem;
+  color: #605a57;
+}
+
+.item-total-price-container {
+  justify-self: right;
+}
+
+.remove-icon {
+  margin-left: 4rem;
+}

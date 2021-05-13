@@ -1,0 +1,30 @@
+.nav {
+  background-color: #5d5650;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #eff3f4;
+}
+
+.nav-container {
+  padding: 1.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-count {
+  margin-left: 1.5rem;
+  background-color: #eff3f4;
+  padding: 0.5rem 0.7rem;
+  line-height: 1;
+  border-radius: 2px;
+  opacity: 0.8;
+}

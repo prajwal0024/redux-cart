@@ -1,0 +1,21 @@
+.footer-container {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-size: 2.2rem;
+  margin-top: 6rem;
+  color: #605a57;
+}
+
+.footer-text-clear {
+  opacity: 0.3;
+  text-decoration: underline;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.footer-text-clear:hover {
+  opacity: 1;
+}
