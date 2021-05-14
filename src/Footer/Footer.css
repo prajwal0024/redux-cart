@@ -19,3 +19,15 @@
 .footer-text-clear:hover {
   opacity: 1;
 }
+
+@media only screen and (max-width: 360px) {
+  .footer-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 4rem 0;
+  }
+
+  .footer-text-clear {
+    margin-top: 2rem;
+  }
+}
